@@ -1,0 +1,11 @@
+:root {
+    --green: #10e956;
+    --text-color:#d1d1d1
+}
+body {
+    background-color: #343d46;
+    color: #d1d1d1;
+}
+* {
+    box-sizing: border-box;
+}

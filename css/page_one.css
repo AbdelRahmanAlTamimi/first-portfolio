@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+}
+
+
+.first-page {
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    animation: fadeOutUp 1s ease forwards 7s;
+    z-index: 10;
+    position: fixed;
+
+}
+
+.login-page {
+    font-size: 30px;
+    color: white;
+    width: 280px;
+    height: 38px;
+    margin: 20px 4px;
+    display: inline;
+    font-family: "exospace";
+
+}
+
+.sp_username {
+    width: 272px;
+    display: block;
+    border-right: 2px solid white;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: control-width-username 3s steps(22) 1s both, blink 0.8s infinite;
+    font-family: "exospace";
+}
+
+.sp_pass {
+    width: 120px;
+    display: block;
+    border-right: 2px solid white;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: control-width-pass 1s steps(22) 5s both, blink 0.8s infinite;
+}
+
+img {
+    z-index: 1;
+}
+
+@keyframes control-width-username {
+    from {
+        width: 0;
+
+    }
+
+    to {
+        width: 279px;
+    }
+}
+
+@keyframes control-width-pass {
+    from {
+        width: 0;
+
+    }
+
+    to {
+        width: 125px;
+    }
+}
+
+@keyframes blink {
+    from {
+        border-right-color: white;
+    }
+
+    to {
+        border-right-color: transparent;
+    }
+}
+
+@keyframes fadeOutUp {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+        transform: translate3d(0, -100%, 0);
+
+    }
+}
