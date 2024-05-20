@@ -1,34 +1,18 @@
-* {
-    font-family: "Montserrat", sans-serif;
-    box-sizing: border-box;
-    
-}
-
 .about {
     padding: 2%;
     width: 50%;
     height: auto;
+    background-color: var(--background-color);
+    margin-bottom: 1.5vh;
 }
-.whole-container {
-    padding: 1em;
-    margin: 1em;
-    width: 100%;
-    height: auto;
-    background-color: transparent;
-    display: flex;
-    flex-wrap: wrap;
-    
-        
-} 
 .edu-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, auto);
-    width: 60%;
+    width: 70%;
     height: 100%;
     padding: 0px 2%;
-    background-color: transparent;
-    color: #d1d1d1;
+    background-color: var(--background-color);
     perspective: 2000px;
     
 }
