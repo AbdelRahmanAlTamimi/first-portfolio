@@ -332,7 +332,6 @@ nav li:first-child {
     gap: 2px;
     place-items: center
 }
-
 .skills-card {
     border-radius: 25px;
     display: flex;
@@ -342,13 +341,11 @@ nav li:first-child {
     text-align: center;
     font-size: 1vw;
 }
-
 img {
     width: 100%;
     height: 100%;
     border-radius: 25px;
 }
-
 /* skills end */
 
 /* projects start */
@@ -373,23 +370,19 @@ img {
     padding: 1%;
     text-align: center;
 }
-
 .project-card img {
     padding: 0.5vw;
     max-width: 100%;
     height: auto;
 }
-
 /* projects end */
 
 /* footer start */
-
 .foot {
     display: flex;
     flex-flow: column wrap;
     align-items: center;
 }
-
 .start-project {
     width: 100vw;
     height: 200px;
@@ -401,7 +394,6 @@ img {
     align-items: center;
     z-index: 10;
 }
-
 .foot-contact {
     background-color: black;
     z-index: 10;
@@ -409,19 +401,16 @@ img {
     text-align: center;
     padding: 5%;
 }
-
 .foot-logo {
     width: 90px;
     height: auto;
 }
-
 .foot-icons {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     gap: 5%;
 }
-
 .foot-icons img {
     width: 90px;
     height: 90px;
@@ -432,5 +421,4 @@ img {
 .foot-icons img:hover {
     cursor: url("images/pointer.png"),auto;
 }
-
 /* footer end */
