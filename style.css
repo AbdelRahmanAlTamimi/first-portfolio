@@ -116,7 +116,7 @@ body {
     font-family: "exospace";
 }
 .sp_username {
-    width: 272px;
+    width: 285px;
     display: block;
     border-right: 2px solid var(--green);
     overflow: hidden;
@@ -139,7 +139,7 @@ body {
     }
 
     to {
-        width: 279px;
+        width: 285px;
     }
 }
 @keyframes control-width-pass {
@@ -265,7 +265,6 @@ nav li:first-child {
     margin-right: auto;
 }
 /* nav end */
-
 /* about me start */
 .about {
     padding: 2%;
