@@ -5,12 +5,12 @@
     --space-blue:rgb(18, 28, 58);
 }
 @font-face {
-    font-family: "exospace";
-    src: url(fonts/exospace.ttf);
+    font-family: "exospace",sans-serif;
+    src: url('fonts/exospace.ttf');
 }
 @font-face {
-    font-family: "Montserrat";
-    src: url(fonts/Montserrat.ttf);
+    font-family: "Montserrat",sans-serif;
+    src: url('fonts/Montserrat.ttf');
 }
 body {
     color: var(--green);
@@ -117,7 +117,6 @@ body {
     display: inline;
     font-family: "exospace";
 }
-
 .sp_username {
     width: 272px;
     display: block;
